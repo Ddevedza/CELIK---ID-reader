@@ -1,0 +1,34 @@
+**Overview**
+Celik-ID Reader is a Python application designed to interface with electronic ID cards using Serbia's official Celik API. The application reads data from an ID card inserted into a card reader and performs several functions, including data extraction, document generation, and data storage.
+
+**Features**
+Data Extraction: Reads data from electronic ID cards using the Celik API.
+Document Generation: Fills a predefined Word template with extracted data for printing or archival.
+Data Storage: Saves extracted ID data into an Excel spreadsheet to keep records that can be easily accessed and analyzed.
+User Interface: Provides a basic GUI to initiate the ID card reading process and display operation status.
+Requirements
+Python 3
+Windows operating system (due to dependency on Celik API and COM components)
+Required Python libraries: ctypes, tkinter, openpyxl, docxtpl, win32com.client
+
+**How It Works**
+Initialization: On launch, the application initializes by setting up the necessary directories and checking for the required dependencies.
+Reading ID Card: When an ID card is inserted, the application uses the Celik API to read data from the card.
+Data Processing:
+Extracted data is used to fill a Word document template.
+Relevant data points are also stored in an Excel file for record-keeping.
+Error Handling: The application includes basic error handling capabilities to manage and troubleshoot potential issues during the read process.
+File Structure
+Main.py: Main script to run the application.
+template.docx: Word template for data output.
+data.xlsx: Excel file where data records are maintained.
+
+**Contributing**
+Contributions to the Celik-ID Reader are welcome! Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+**License**
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+**Acknowledgments**
+Thanks to the Serbian Ministry of Interior for providing the Celik API.
+Special thanks to all contributors who have invested their time in improving this tool.
