@@ -40,7 +40,7 @@ The GUI will launch, and you can begin by inserting an ID card into the reader a
 
 ## Contributing
 
-Contributions to the Celik-ID Reader are welcome! Please read `CONTRIBUTING.md` for details on our code of conduct, and the process for submitting pull requests to us.
+Contributions to the Celik-ID Reader are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 
